@@ -10,6 +10,7 @@ const seedDatabase = async () => {
 	await seedPosts();
 	await seedComments();
 	
+	
 };
 
 seedDatabase();

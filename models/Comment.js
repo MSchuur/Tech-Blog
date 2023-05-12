@@ -8,7 +8,7 @@ Comment.init(
 		id: {
 			type: DataTypes.INTEGER,
 			primaryKey: true,
-			autoInCrement: true
+			autoIncrement: true
 		},
 		comment_text: {
 			type: DataTypes.STRING,
@@ -38,7 +38,7 @@ Comment.init(
 		timestamps: false,
 		freezeTableName: true,
 		underscored: true,
-		modelName: 'user'
+		modelName: 'comment'
 	}
 );
 
