@@ -5,16 +5,19 @@ const postData = [
 		title: 'Why MVC is so important',
 		content: 'MVC allows developers to maintain a true separation of concerns, devising their code between the Model layer for data, the View layer for design, and the Controller layer for application logic.',
 		user_id: 1,
+		created_at: new Date(),
 	},
 	{
 		title: 'Authentication vs. Authorization',
 		content: 'There is a difference between authentication and authorization. Authentication means confirming your own identity, whereas authorization means being allowed access to the system.',
-		user_id: 1
+		user_id: 1,
+		created_at: new Date(),
 	},
 	{
 		title: 'Object-relational Mapping',
 		content: 'I have really loved learning about ORMs, It has really simplified the way I create queeries in SQL!',
-		user_id: 2
+		user_id: 2,
+		created_at: new Date()
 	}
 ];
 
